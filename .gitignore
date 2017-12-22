@@ -1,23 +1,53 @@
-# built application files
-*.apk
-*.ap_
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# files for the dex VM
-*.dex
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
 
-# Java class files
-*.class
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
 
-# generated files
-bin/
-gen/
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+.gradle/
+build/
 
-# Local configuration file (sdk path, etc)
-local.properties
+# CMake
+cmake-build-debug/
+cmake-build-release/
 
-# I'm not sharing my release key.
-ant.properties
+# Mongo Explorer plugin:
+.idea/**/mongoSettings.xml
 
-# Eclipse project files
-.classpath
-.project
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+*.iml
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
